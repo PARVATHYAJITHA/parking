@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:17px;
+	color:white;
+}
+body{
+	background:#d6f4db;
+}
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+.container{
+	-webkit-flex-wrap: wrap;
+	width:350px;
+	position:relative;
+	background:#9cc8a2;
+	border:1px ridge #e0e0e0;
+	margin:0 auto;
+}
+.regi-img{
+	width:250px;
+	margin:30px;
+}
+.text-field{
+	width:94%;
+	border:1px ridge #9cabe3;
+	border-radius:45px;
+	margin:10px;
+	ont-size:14px;
+	padding:5px;
+}
+.submit-btn{
+	margin-top:50px;
+	width:100%;
+	background-color:#367340;
+	padding:10px 0;
+	outline:none;
+	border:none;
+}
+.submit-btn:hover{
+	background-color:black;
+}

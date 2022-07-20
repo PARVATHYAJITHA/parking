@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.back-img{
+	position:fixed;
+	z-index:-4;
+	width:100%;
+
+}
+body {
+ background-image: url('images/back.png');
+ background-color: #c5e0fc;
+}
+.blue{
+	width:460px;
+	position:fixed;
+	margin-left:600px;
+	margin-top:50px;
+	z-index:-1;
+	background-color:blue;
+	background-image: url('back.jpg');
+	color:white;
+	text-align:center;
+	padding:
+}
+.blue-img{
+	width:100%;
+	height:480px;
+}
+.blue-btn{
+	background-color:blue;
+	margin-top:50px;
+	border:none;
+	left:800px;
+	position:sticky;
+	padding:7px;
+}
+.extra-space{
+	margin-right:50px;
+	font-size:14px;
+}
+a{
+	font-size:14px;
+}
+
+.welcome{
+	font-size:22px;
+	font-weight: bolder;
+	padding:50px 10px 10px 40px;
+}
+.pswrd-div{
+	position:relative;
+	text-align:left
+}
+.pswrd{
+	position:relative;
+	left:60px;
+	top:40px;
+	padding-right:4px;
+}
+.user{
+	padding:10px 15px 10px 30px;
+	margin:10px 70px 10px 50px;
+	width:70%;
+	border:none;
+	border-left:4px solid blue;
+}
+.email-div{
+	position:relative;
+	text-align:left;
+}
+.email{
+
+	position:relative;
+	left:60px;
+	top:40px;
+	padding-right:14px;
+
+}
+.top-left {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+}
+.login button{
+	background-color:blue;
+	padding:8px 30px;
+	border:none;
+	margin-top:30px;
+	color:white;
+}
+.back-img{
+	position:fixed;
+	z-index:-4;
+	width:100%;
+
+}
+.white-head{
+	font-size:22px;
+	font-weight:bolder;
+	
+}
+.blue-details{
+	font-size:14px;
+	padding:10px 0 0 30px;
+}
+u{
+	text-decoration-color:blue;
+}
+.container{
+	display:flex;
+}
+.white{
+	width:420px;
+	margin:90px 10px 70px 300px;
+	background-color:white;
+	position:fixed;
+	text-align:center;
+	padding:80px 0;
+}
+.nav{
+	display:flex;
+}
+.logins{
+	position:relative;
+	left:30px;
+	color:white;
+	padding:10px;
+}

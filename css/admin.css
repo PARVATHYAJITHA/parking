@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+.main-container{
+	width:100%;
+	margin 0 auto;
+	display:flex;
+}
+.nav-container{
+	width:170px;
+	background-color:black;
+	color:white;
+	height:100%;
+}
+.head-details{
+	width:1200px;
+	background-color:black;
+	display:flex;
+}
+.head-details a:hover{
+	background-color:grey;
+	
+	
+}
+ul {
+  list-style-type: none;
+}
+.side-link{
+	text-decoration:none;
+	color:white;
+}
+.menu-img{
+	width:25px;
+	margin-left:10px;
+}
+.side-link:hover{
+	text-shadow: 2px 2px white;	
+}
+.side-details{
+	padding:10px 5px;
+}
+.notification{
+	margin-left:1000px;
+}
+.other:hover{
+	background-color:grey;
+}
+.parking{
+	background-color:red;
+}
+.log-out{
+	margin:290px 5px 20px 5px;
+}
+.side-img{
+	width:90px;
+}
+.login{
+	color:green;
+}
