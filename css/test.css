@@ -6,7 +6,7 @@
 body{
 	background-image:url("admin-pic.png");
 	background-repeat:  no-repeat;
-	background-size:100% 900px;
+	background-size:100% 800px;
 }
 .rit{
 	float:right;
@@ -20,21 +20,19 @@ body{
 	padding:40px;
 }
 .white{
-	width:100%;
+	width:99%;
 	background-color:grey;
-	padding:8px;
+	padding:7px;
 }
 table{
 	width:100%;
 	border: 1px solid black;
+	background-image:url("table.jpg");
 }
 .table-div{
 	padding:40px;
 }
-tr:nth-child(even) {
-	background: grey;
-	color:white;
-	}
+tr:nth-child(even) {background: grey;}
 th ,td{
 	text-align:center;
 	padding:5px;
@@ -50,13 +48,4 @@ th ,td{
 	padding:5px 12px;
 	border:none;
 }
-.slots{
-	width:60px;
-	border-radius:40px;
-}	
-.details{
-	padding:30px;
-}
-.free-space ,.filled-space{
-	padding:10px;
-}
+	
