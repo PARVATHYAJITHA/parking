@@ -12,7 +12,7 @@ body {
 	position:fixed;
 	margin-left:600px;
 	margin-top:50px;
-	z-index:-1;
+	z-index:1;
 	background-color:blue;
 	background-image: url('back.jpg');
 	color:white;
@@ -29,7 +29,7 @@ body {
 	border:none;
 	left:800px;
 	position:sticky;
-	padding:8px;
+	padding:8px 20px;
 }
 .extra-space{
 	margin-right:10px;
@@ -46,27 +46,30 @@ body {
 }
 .pswrd{
 	position:relative;
-	left:60px;
-	top:40px;
+	left:40px;
+	top:6px;
 	padding-right:4px;
 }
 .user{
 	padding:10px 15px 10px 30px;
 	margin:10px 70px 10px 50px;
-	width:70%;
+	width:60%;
 	border:none;
-	border-left:4px solid blue;
+}
+.user:focus{
+	outline:1px solid blue;
 }
 .email-div{
 	position:relative;
 	text-align:left;
+	margin-top:20px;
 }
 .email{
 
 	position:relative;
-	left:60px;
-	top:40px;
-	padding-right:14px;
+	left:40px;
+	top:5px;
+	padding-right:1px;
 
 }
 .top-left {
@@ -76,14 +79,14 @@ body {
 }
 .login button{
 	background-color:blue;
-	padding:6px 20px;
+	padding:10px 25px;
 	border:none;
 	margin-top:10px;
 	color:white;
 }
 .loginsymbol{
 	position:relative;
-	left:20px;
+	left:25px;
 	color:white;
 	padding:4px;
 }
@@ -115,4 +118,5 @@ u{
 	position:fixed;
 	text-align:center;
 	padding:20px 0;
+	z-index:2;
 }

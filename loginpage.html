@@ -8,14 +8,15 @@
 	<div class="container">
 		<img src="images/back.png" class="back-img">
 		<div class="white">
+			<form action="admin.html">
 			<div class="white-head"><u>Login please</u></div>
 			<div class="email-div">
 				<i class="fa fa-envelope email" aria-hidden="true"></i>
-				<input type="text" placeholder="input your userid or email" class="user">
+				<input type="text" placeholder="Input your userid or email" class="user" required="required">
 			</div>
 			<div class="pswrd-div">
 				<i class="fa fa-lock pswrd"></i>
-				<input type="text" placeholder="input your password" class="user">
+				<input type="text" placeholder="Input your password" class="user" required="required">
 			</div>
 			<div class="extra-details">
 				<span class="extra-space"><input type="checkbox" checked>remember me</span>
@@ -23,17 +24,21 @@
 			</div>
 			<div class="login">
 				<i class="fa fa-sign-in logins"></i>
-				<button> Log in </button>
+				<input type="submit" value="Log in "> 
 			</div>
 		</div>
+		</form>
+	</div>
+		<form action="regis.html">
 		<div class="blue">
 			<img src="blue.jpg" class="blue-img">
 			<div class="top-left">
 				<div class="welcome">WELCOME!</div>
 				<div class="blue-details">enter your details and start your journey</div>
-				<button class="blue-btn">SIGN UP </button>
+				<input  type="submit" class="blue-btn" value="SIGN UP"> 
 			</div>
 		</div>
+		</form>
 	</div>
 		
 	</body>
